@@ -80,7 +80,7 @@ void loop()
       }
     }
   }
-  // 네번째 스위치( 으 ) 눌렸을 때
+  // 네번째 스위치( 우 ) 눌렸을 때
   if (digitalRead(push_pin[3]) == LOW)
   {
     if (colIdx < 7)
