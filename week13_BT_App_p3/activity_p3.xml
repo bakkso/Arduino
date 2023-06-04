@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".p1Activity">
+    <TextView
+        android:id="@+id/practice1_banner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/go_p3"
+        android:background="#ff4081"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="top"
+        android:textStyle="bold">
+    </TextView>
+    <Button
+        android:id="@+id/btBTN"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_margin="25dp"
+        android:background="@drawable/selector_bt_btn"
+        android:onClick="clickFunc">
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/p3_led1"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="15dp"
+            android:onClick="clickFunc"
+            android:text="@string/p3_led1"
+            android:textSize="25dp">
+
+        </Button>
+        <Button
+            android:id="@+id/p3_led2"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="15dp"
+            android:onClick="clickFunc"
+            android:text="@string/p3_led2"
+            android:textSize="25dp">
+        </Button>
+        <Button
+            android:id="@+id/p3_led3"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="15dp"
+            android:onClick="clickFunc"
+            android:text="@string/p3_led3"
+            android:textSize="25dp">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#2F1E1E1E"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/p3_text"
+            android:textColor="#141414"
+            android:textSize="50sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_p3_text"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#FF03DAC5"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#141414"
+            android:textSize="50sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
